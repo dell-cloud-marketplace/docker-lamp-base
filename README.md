@@ -38,7 +38,7 @@ PHP        | 4.0.2      | Scripting language
 Start your image binding host port 8080 to port 80 and port 443 to 443 (Apache Web Server) in your container:
 
 ```no-highlight
-docker run -d -p 8080:80 -p 443:443 dell/lamp
+docker run -d -p 8080:80 -p 443:443 dell/lamp-base
 ```
 
 Test your deployment:
@@ -151,7 +151,7 @@ Under construction.
 To build the image, execute the following command in the docker-lamp folder:
 
 ```no-highlight
-docker build -t dell/lamp .
+docker build -t dell/lamp-base .
 ```
 
 <a name="issues"></a>
