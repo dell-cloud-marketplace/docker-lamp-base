@@ -19,7 +19,7 @@ PHP        | 4.0.2      | Scripting language
 ### Basic Example
 Start your image binding host port 8080 to port 80 (Apache Web Server) in your container:
 
-    docker run -d -p 8080:80 dell/lamp
+    docker run -d -p 8080:80 dell/lamp-base
 
 Test your deployment:
 
