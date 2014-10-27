@@ -35,7 +35,7 @@ You will see an output like the following:
     ===================================================================
     You can now connect to this MySQL Server using:
 
-        mysql -uadmin -p47nnf4FweaKu -h<host> -P<port>
+        mysql -u admin -p47nnf4FweaKu -h<host> -P<port>
 
     Please remember to change the above password as soon as possible!
     MySQL user 'root' has no password but only allows local connections
@@ -48,7 +48,7 @@ Remember that the `root` user has no password but it's only accessible from with
 
 You can now test your deployment:
 
-     mysql -uadmin -p47nnf4FweaKu -h127.0.0.1 -P3306
+     mysql -u admin -p47nnf4FweaKu -h127.0.0.1 -P3306
 
 
 ### Connecting to MySQL from the Application
