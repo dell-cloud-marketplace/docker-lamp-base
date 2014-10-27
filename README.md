@@ -1,4 +1,4 @@
-# docker-lamp
+# docker-lamp-base
 This blueprint installs a basic [LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack - a popular combination of open source software components, used to build dynamic web sites.
 
 * [Components](#components)
