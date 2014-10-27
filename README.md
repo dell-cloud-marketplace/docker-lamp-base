@@ -48,7 +48,7 @@ Remember that the `root` user has no password but it's only accessible from with
 
 You can now test your deployment:
 
-         mysql -uadmin -p47nnf4FweaKu -h127.0.0.1 -P3306
+     mysql -uadmin -p47nnf4FweaKu -h127.0.0.1 -P3306
 
 
 ### Connecting to MySQL from the Application
@@ -67,7 +67,5 @@ PHP code with this user:
 ### Image Details
 
 Based on  [tutum/lamp](https://github.com/tutumcloud/tutum-docker-lamp)
-
-Github Repository   | TBD
 
 Pre-built Image   | [https://registry.hub.docker.com/u/dell/lamp](https://registry.hub.docker.com/u/dell/lamp) 
