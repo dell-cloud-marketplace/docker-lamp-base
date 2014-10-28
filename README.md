@@ -70,4 +70,4 @@ PHP code with this user:
 
 Based on  [tutum/lamp](https://github.com/tutumcloud/tutum-docker-lamp)
 
-Pre-built Image   | [https://registry.hub.docker.com/u/dell/lamp](https://registry.hub.docker.com/u/dell/lamp) 
+Pre-built Image   | [https://registry.hub.docker.com/u/dell/lamp-base](https://registry.hub.docker.com/u/dell/lamp-base) 
