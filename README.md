@@ -17,9 +17,9 @@ PHP        | 5.5.9     | Scripting language
 ## Usage
 
 ### Basic Example
-Start your image binding host port 8080 to port 80 (Apache Web Server) in your container:
+Start your image binding host port 8080 to port 80 (Apache Web Server/HTTP), 443 to 443 (Apache Web Server/HTTPS) and 3306 to 3306 (MYSQL) in your container:
 
-    docker run -d -p 8080:80 -p 3306:3306 dell/lamp-base
+    docker run -d -p 8080:80 -p 3306:3306 -p 443:443 dell/lamp-base
 
 Test your deployment:
 
