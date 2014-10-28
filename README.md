@@ -12,7 +12,7 @@ Name       | Version    | Description
 Ubuntu     | Trusty     | Operating system
 MySQL      | 5.5        | Database
 Apache     | 2.4.7      | Web server
-PHP        | 4.0.2      | Scripting language
+PHP        | 5.5.9     | Scripting language
 
 ## Usage
 
@@ -28,8 +28,10 @@ Test your deployment:
 ## Administration
 
 ### Connecting to MySQL
-The first time that you run your container, a new user admin with all privileges will be created in MySQL with a random password. To get the password, check the logs of the container. You will see an output like the following:
+The first time that you run your container, a new user admin with all privileges will be created in MySQL with a random password. To get the password, check the logs of the container. 
 
+    docker logs <container_id>
+    
 You will see an output like the following:
 
     ===================================================================
