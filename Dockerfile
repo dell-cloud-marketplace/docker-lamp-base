@@ -29,11 +29,11 @@ RUN rm -rf /var/lib/mysql/*
 ADD create_mysql_admin_user.sh /create_mysql_admin_user.sh
 RUN chmod 755 /*.sh
 
-# config to enable .htaccess
+# Config to enable .htaccess
 ADD apache_default /etc/apache2/sites-available/000-default.conf
 RUN a2enmod rewrite
 
-#Environment variables to configure php
+# Environment variables to configure PHP
 ENV PHP_UPLOAD_MAX_FILESIZE 10M
 ENV PHP_POST_MAX_SIZE 10M
 
