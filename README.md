@@ -32,7 +32,7 @@ The first time that you run your container, a new user admin with all privileges
 
     docker logs <container_id>
     
-You will see an output like the following:
+You will see some output like the following:
 
     ===================================================================
     You can now connect to this MySQL Server using:
