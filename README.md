@@ -1,5 +1,5 @@
 # docker-lamp-base
-Basic LAMP image for lamp dependant images such as dell/wordpress
+A basic LAMP image for dependant images such as [dell/wordpress](https://github.com/dell-cloud-marketplace/docker-wordpress).
 
 This blueprint installs a basic [LAMP](http://en.wikipedia.org/wiki/LAMP_\(software_bundle\))
  stack - a popular combination of open source software components, used to build dynamic web sites.
