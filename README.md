@@ -19,7 +19,7 @@ PHP        | 5.5.9     | Scripting language
 ### Basic Example
 Start your image binding host port 8080 to port 80 (Apache Web Server/HTTP), 443 to 443 (Apache Web Server/HTTPS) and 3306 to 3306 (MYSQL) in your container:
 
-    docker run -d -p 8080:80 -p 3306:3306 -p 443:443 dell/lamp-base
+    sudo docker run -d -p 8080:80 -p 3306:3306 -p 443:443 dell/lamp-base
 
 Test your deployment:
 
@@ -30,7 +30,7 @@ Test your deployment:
 ### Connecting to MySQL
 The first time that you run your container, a new user admin with all privileges will be created in MySQL with a random password. To get the password, check the logs of the container. 
 
-    docker logs <container_id>
+    sudo docker logs <container_id>
     
 You will see some output like the following:
 
