@@ -11,8 +11,8 @@ Name       | Version    | Description
 -----------|------------|------------------------------
 Ubuntu     | Trusty     | Operating system
 MySQL      | 5.5        | Database
-Apache     | 2.4.7      | Web server
-PHP        | 5.5.9     | Scripting language
+Apache     | latest     | Web server
+PHP        | latest     | Scripting language
 
 ## Usage
 
