@@ -45,7 +45,8 @@ RUN chmod 755 /*.sh
 COPY apache_default /etc/apache2/sites-available/000-default.conf
 RUN a2enmod rewrite
 
-# Environment variables to configure PHP
+# Environment variables
+ENV MYSQL_PASS ""
 ENV PHP_UPLOAD_MAX_FILESIZE 10M
 ENV PHP_POST_MAX_SIZE 10M
 
