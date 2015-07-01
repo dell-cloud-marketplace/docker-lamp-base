@@ -70,7 +70,7 @@ PHP code with this user:
 
 Variable   | Default  | Description
 -----------|----------|----------------------------------
-MYSQL_PASS | <random> | Password for MySQL user **admin**
+MYSQL_PASS | *random* | Password for MySQL user **admin**
 
 ### Image Details
 
